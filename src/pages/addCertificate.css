@@ -1,0 +1,92 @@
+*
+{
+  font-family: 'Gordita';
+}
+.student-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 4%;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  input[type='text'],
+  input[type='date'],
+  input[type='file'],
+  select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 16px;
+    background-color: #861444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 27px;
+  }
+  
+  button[type='submit']:hover {
+    background:#fbbf20;
+    color: #861b47;
+  }
+  
+  /* Additional styling for labels */
+  label span {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  form {
+    
+    width: 450px;
+    height:500px;
+    margin-top:20px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    display: grid;
+    margin-left:350px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .student-form {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    label {
+      margin-bottom: 10px;
+    }
+  }
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to the viewport height */
+  }
+  
+  .loading-message {
+    font-size: 20px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

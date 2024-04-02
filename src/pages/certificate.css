@@ -1,0 +1,48 @@
+*
+{
+  font-family: 'Gordita';
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #861b47;
+    color:aliceblue
+  }
+  
+  .table td:last-child {
+    text-align: center;
+  }
+  
+  .table a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .table button {
+    margin-left: 5px;
+    color: rgb(57, 16, 16);
+  }
+
+
+.toast-container .Toastify__toast-body {
+  white-space: nowrap;
+}
+.icon-container {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-container .b1 {
+ 
+ gap: 20px;
+}

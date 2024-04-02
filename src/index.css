@@ -1,0 +1,25 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Gordita', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* You may need to import the Gordita font using a @font-face rule */
+@font-face {
+  font-family: 'Gordita';
+  src: url('path/to/your/gordita-font.woff2') format('woff2'),
+       url('path/to/your/gordita-font.woff') format('woff');
+  /* Add other font formats if necessary (e.g., .ttf, .svg) */
+  font-weight: normal;
+  font-style: normal;
+}

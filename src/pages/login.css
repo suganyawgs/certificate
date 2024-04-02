@@ -1,0 +1,57 @@
+*
+{
+  font-family: 'Gordita';
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 455px;
+    height: 40vh;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-link {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .login-form {
+      /* Adjust styles for smaller screens */
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
